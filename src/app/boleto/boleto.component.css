@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("../../assets/Imagenes/Michael.png");
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ticket-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket {
+    background-color: #fff;
+    width: 600px;
+    max-width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+}
+
+.event-info {
+    padding: 20px;
+    flex: 2;
+}
+
+.event-info h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.event-info p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.qr-code {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.qr-code img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}

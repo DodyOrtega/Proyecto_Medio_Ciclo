@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../../assets/Imagenes/Paulo.jpg");
+     /* Ajusta la ruta según tu estructura de carpetas */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el fondo */
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente para mejor legibilidad */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Botón de inicio con color negro */
+.regreso button {
+    background-color: #000;
+    color: #fff;
+}
+
+.regreso button:hover {
+    background-color: #333;
+}

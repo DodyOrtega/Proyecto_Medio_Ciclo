@@ -1,0 +1,26 @@
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/Imagenes/Logo_Ticket.png" class="d-inline-block align-text-top">
+      </a>
+    </div>
+  </nav>
+  <br>
+
+  
+  <div *ngFor="let usuario of usuario1" class="ticket"> 
+        <div class="event-info">
+            
+            <h1>Concierto: {{usuario.concierto}}</h1>
+            <p><strong >Nombre:</strong > {{usuario.concierto}}</p>
+            <p><strong>Entradas:</strong>{{usuario.entradas}}</p>
+            <p><strong>Correo: </strong>{{usuario.correo}}</p>
+            <p><strong>Fecha:</strong> {{usuario.fecha}}</p>
+        
+        </div>
+
+        <div class="qr-code">
+            <img src="assets/Imagenes/QR.png" alt="Código QR">
+        </div>
+    </div>
+    

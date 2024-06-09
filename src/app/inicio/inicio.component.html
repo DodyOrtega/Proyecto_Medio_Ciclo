@@ -1,0 +1,153 @@
+<div class="barra">
+    <ul class="nav justify-content-center">
+        <li class="imagen2">
+            <img src="assets/Imagenes/Logo_Ticket.png" alt="#">
+    </li>
+<div class="boton2">
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Inicio de Sesion</button>
+
+</div>    
+      </ul>
+    
+</div>
+<div class="inicio">
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content" action="/action_page.php">
+          <div class="container">
+            <h1>Inicio de Sesion</h1>
+            <p>Complete el formulario con sus datos</p>
+            <hr>
+            <label for="email"><b>Correo</b></label>
+            <input type="text" placeholder="Ingrese Correo" name="email" required>
+      
+            <label for="psw"><b>Contraseña</b></label>
+            <input type="password" placeholder="Ingrese la Contraseña" name="psw" required>
+      
+            <label for="psw-repeat"><b>Repita su Contraseña</b></label>
+            <input type="password" placeholder="Repita su Contraseña" name="psw-repeat" required>
+            
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">  Recordar  
+            </label>
+      
+            <div class="clearfix">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+              <button type="submit" class="signupbtn">Iniciar Sesion</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      
+      <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
+  
+
+      <h1>----Eventos de Junio----</h1>
+      <br><br>
+
+      <div class="card-container">
+        <div class="card">
+          <img src="assets/Imagenes/Paulo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Paulo Londra</h5>
+            <p class="card-text">Paulo Londra en Concierto<br>
+                                Lugar: Quito<br>
+                                Fecha: 30 de Junio 2024 hasta 03 de Julio 2024
+            </p>
+            <button type="submit" class="btn btn-primary" (click)="Clickone('form-p')">Comprar Ticket</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/Imagenes/Foto2.1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">5 Seconds of Summer</h5>
+            <p class="card-text">5 Second of Summer <br>
+                                  Lugar: Guyaquill <br>
+                                  Fecha: 28 de Junio 2024 hasta 30 de Junio de 2024
+            </p>
+            <button type="submit" class="btn btn-primary" (click)="Clickone('form-p')">Comprar Ticket</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/Imagenes/Foto3.1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Black Pink</h5>
+            <p class="card-text">Black Pink <br>
+                                Lugar: Cuenca <br>
+                                Fecha: 18 de Junio 2024 hasta 22 de Junio 2024
+            </p>
+            <button type="submit" class="btn btn-primary" (click)="Clickone('form-p')">Comprar Ticket</button>
+          </div>
+        </div>
+</div>
+<br>
+<div class="titulo2">
+  <h1>----Proximos Eventos----</h1>
+</div>
+<br>
+<div class="card-container">
+  <div class="card">
+    <img src="assets/Imagenes/Sharon.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sharon la Hechicera</h5>
+      <p class="card-text">Paulo Londra en Concierto<br>
+                          Ciudad: Portoviejo <br>
+                          Fecha: 30 de Junio 2024 hasta 03 de Julio 2024
+      </p>
+      <a href="#" class="btn btn-primary">Proximamente...</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="assets/Imagenes/Sheran.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Ed Sheeran</h5>
+      <p class="card-text">Ed Sheeran en Concierto<br>
+        Ciudad: Quito<br>
+        Fecha: 30 de Junio 2024 hasta 03 de Julio 2024</p>
+      <a href="#" class="btn btn-primary">Proximamente...</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="assets/Imagenes/A_ash.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">HA ASH</h5>
+      <p class="card-text">HA ASH en Concierto<br>
+        Ciudad: Cuenca <br>
+        Fecha: 30 de Junio 2024 hasta 03 de Julio 2024</p>
+      <a href="#" class="btn btn-primary">Proximamente...</a>
+    </div>
+  </div>
+</div>
+
+<div class="card-container">
+  <div class="card">
+    <img src="assets/Imagenes/Michael.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Michael Jackson</h5>
+      <p class="card-text">Paulo Londra en Concierto<br>
+                          Ciudad: Manta<br>
+                          Fecha: 30 de Junio 2024 hasta 03 de Julio 2024
+      </p>
+      <a href="#" class="btn btn-primary">Proximamente...</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="assets/Imagenes/Tierra.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tierra Canela</h5>
+      <p class="card-text">Tierra Canela en Concierto<br>
+        Ciudad: Ambato <br>
+        Fecha: 30 de Junio 2024 hasta 03 de Julio 2024</p>
+      <a href="#" class="btn btn-primary">Proximamente...</a>
+    </div>
+  </div>
