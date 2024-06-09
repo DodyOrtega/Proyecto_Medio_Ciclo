@@ -1,4 +1,5 @@
-# ConciertoPro
+# ConciertoPro 
+Proyecto de medio ciclo conformado por Dody Joe Ortega Placencio, Jefferson Alex Anchundia, Jean Pierre Chavez
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
